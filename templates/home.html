@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+{% block title %} Survey {% endblock %}
+
+{% block content %}
+<h1>Survey</h1>
+<ol >
+    {% for survey in surveys%}
+    <li class = 'surveys'>{{surveys[survey].title}}
+        
+    <li class ='instructions'>{{surveys[survey].instructions}}</li>
+        
+    </li>
+    <a href="/survey/{{survey}}/questions/0" id="survey_link">Start Survey!</a>
+    {% endfor %}
+</ol>
+{% endblock %}
+
+

@@ -1,0 +1,83 @@
+body {
+    background-color:lightgray
+}
+
+h1 {
+    background-color: black;
+    color: white;
+    margin: 0;
+    margin-left: 40px;
+    padding: 0;
+    width: 50%;
+}
+
+h3 {
+    color: darkred;
+    font-size: 1.5rem;
+}
+
+.thanks {
+    background-color: lightgray;
+    color: darkred;
+    width: 100%;
+}
+
+.surveys {
+    font-size: 1.5rem;
+    background-color:rgb(139, 158, 176)
+    width: 50%;
+    list-style-type: none;
+}
+
+.instructions {
+    font-size: 1rem;
+    list-style-type: none;
+    font-style: italic;
+}
+
+a {
+    text-decoration: none;
+    font-size: 1rem;
+    display: block;
+    width: 115px;
+    height: 20px;
+    background: #4E9CAF;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    line-height: 25px;
+
+}
+
+ol {
+    margin: 10px
+}
+
+#next {
+    
+    width: 95px;
+    height: 40px;
+    background: #4E9CAF;
+    
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    
+
+}
+
+form, h2, h3 {
+    margin-left: 40px;
+}
+
+.messages {
+    margin-left: 40px;
+    background-color: rgb(228, 89, 89);
+    width: 50%;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    text-align: center;
+}
