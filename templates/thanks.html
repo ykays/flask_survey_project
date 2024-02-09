@@ -3,4 +3,11 @@
 
 {% block content %}
 <h1 class="thanks">Thank you for submitting {{title}}!</h1>
+<h2>Your responses:</h2>
+<ol>
+{% for question in questions %} 
+<li><b>{{question.question}}</b> - {{session['responses'][questions.index(question)]}}</li>   
+{% endfor %}
+</ol>
+
 {% endblock %}

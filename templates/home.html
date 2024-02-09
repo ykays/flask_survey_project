@@ -10,7 +10,10 @@
     <li class ='instructions'>{{surveys[survey].instructions}}</li>
         
     </li>
-    <a href="/survey/{{survey}}/questions/0" id="survey_link">Start Survey!</a>
+    <form id='start-link' action="/survey/{{survey}}/setting-response" method="POST">
+        <button id="survey_link">Start Survey!</button>
+    </form>
+
     {% endfor %}
 </ol>
 {% endblock %}
